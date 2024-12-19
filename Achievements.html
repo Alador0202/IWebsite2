@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Achievements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #5393d8;
+            color: white;
+            padding: 1em;
+            font-size: 2em;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2em 0;
+        }
+        .gallery-item {
+            margin: 1em;
+            text-align: center;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .caption {
+            margin-top: 0.5em;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>My Achievements</header>
+    <h3>Achivements are a part of someones journey, every action, every decision has an equal outcome.<br> My outcome proves the challenges I handled to continue my Journey.</h3>
+    
+    <section class="gallery">
+        <div class="gallery-item">
+            <img src="assets/img/Defense.jpg" alt="Defense">
+            <div class="caption">Highest Grade & Defended Research</div>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/img/Honors.jpg" alt="Honors">
+            <div class="caption">Academic Achievers</div>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/img/Scout.jpg" alt="Scout">
+            <div class="caption">Scout of the Year 2023</div>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/img/SportsClub.jpg" alt="SportsClub">
+            <div class="caption">Sportsfest Accomplished</div>
+        </div>
+    </section>
+</body>
+</html>

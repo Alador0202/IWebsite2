@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Experience</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c6950;
+            color: white;
+            padding: 1em;
+            font-size: 2em;
+        }
+        h3 {
+            margin: 1em;
+            color: #444;
+            font-size: 1.2em;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2em 0;
+            gap: 1em;
+            padding: 1em;
+        }
+        .gallery-item {
+            width: 100%;
+            max-width: 350px;
+            text-align: center;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .caption {
+            margin-top: 0.5em;
+            font-weight: bold;
+            color: #333;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>My Experience</header>
+    <h3>Experience plays a very crucial role in my life. I would not be who I am today if it weren't for my experiences.</h3>
+    
+    <section class="gallery">
+        <div class="gallery-item">
+            <img src="assets/img/Raise.png" alt="Raising">
+            <div class="caption">To Raise The Flag at A Regional wide event</div>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/img/proposal.png" alt="Proposal">
+            <div class="caption">To Propose Projects</div>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/img/Immersion.png" alt="Immersion">
+            <div class="caption">To Immerse myself in workplace</div>
+        </div>
+        <div class="gallery-item">
+            <img src="assets/img/Inspire.png" alt="SportsClub">
+            <div class="caption">To be Inspired to do better</div>
+        </div>
+    </section>
+</body>
+</html>
